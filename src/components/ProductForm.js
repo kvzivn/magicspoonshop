@@ -160,9 +160,9 @@ const ProductForm = ({ product, color, setColor }) => {
         disabled={!available || adding}
         onClick={handleAddToCart}
       >
-        Lägg i varukorg
+        Add to Cart
       </Button>
-      {!available && <p>Slutsålt just nu, tyvärr!</p>}
+      {!available && <p>This product is sold out right now.</p>}
     </Wrapper>
   )
 }

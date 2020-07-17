@@ -38,7 +38,7 @@ const ProductPage = ({ data }) => {
               />
             }
 
-            {product.images.length > 1 && color === 'Rosé' &&
+            {product.images.length > 1 && color === 'Rose Gold' &&
               <Img
                 fluid={product.images[2].localFile.childImageSharp.fluid}
                 key={product.images[2].id}
@@ -46,7 +46,7 @@ const ProductPage = ({ data }) => {
               />
             }
 
-            {product.images.length > 1 && color === 'Guld' &&
+            {product.images.length > 1 && color === 'Gold' &&
               <Img
                 fluid={product.images[3].localFile.childImageSharp.fluid}
                 key={product.images[3].id}
