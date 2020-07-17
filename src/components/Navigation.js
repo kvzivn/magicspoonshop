@@ -130,7 +130,7 @@ const Navigation = ({ siteTitle, location }) => {
 			</Container>
       <Banner>
         <span role="img" aria-label="sparkles">✨ </span>
-          Gratis Frakt - leverans inom 2-4 dagar
+          Free Shipping - Fast Delivery
         <span role="img" aria-label="sparkles"> ✨</span>
       </Banner>
 		</Wrapper>
