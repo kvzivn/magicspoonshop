@@ -21,10 +21,10 @@ const Cart = () => {
     <Wrapper>
       {line_items}
       <Total>
-        <Heading>Totalt:</Heading>
+        <Heading>Total:</Heading>
         <Price>{checkout.totalPrice} kr</Price>
         <Button onClick={handleCheckout} disabled={checkout.lineItems.length === 0}>
-          Gå till betalning
+          Go to payment
         </Button>
       </Total>
       <PaymentIcons />

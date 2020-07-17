@@ -29,9 +29,9 @@ const LineItem = props => {
       />
       <Title>{line_item.title}</Title>
       <Variant>
-        {line_item.quantity} st {line_item.variant.title !== 'Default Title' && `(${line_item.variant.title})`}
+        {line_item.quantity} {line_item.variant.title !== 'Default Title' && `(${line_item.variant.title})`}
       </Variant>
-      <Button secondary onClick={handleRemove}>Ta bort</Button>
+      <Button secondary onClick={handleRemove}>Remove</Button>
     </Wrapper>
   )
 }
